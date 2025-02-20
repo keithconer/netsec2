@@ -1,0 +1,10 @@
+CREATE TABLE usersAccounts (
+    accNum INT(11) NOT NULL AUTO_INCREMENT,
+    fname VARCHAR(50) DEFAULT NULL,
+    lname VARCHAR(50) DEFAULT NULL,
+    username VARCHAR(50) DEFAULT NULL,
+    password VARCHAR(50) DEFAULT NULL,
+    age VARCHAR(50) DEFAULT NULL,
+    address VARCHAR(50) DEFAULT NULL,
+    PRIMARY KEY (accNum)
+);
